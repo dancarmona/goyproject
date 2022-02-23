@@ -9,6 +9,7 @@
   html {
     /* font-family: 'Bodoni Moda', serif; */
     
+    
   }
   body {
     
@@ -25,7 +26,7 @@
 
 
 .title h1 {
-font-size: 10rem;
+font-size: 2rem;
 font-family: 'Sacramento', cursive;
 font-weight: 900;
 color: #000000;
@@ -50,13 +51,32 @@ blink-caret .5s step-end infinite;
   from, to { border-color: transparent }
   50% { border-color: rgb(0, 0, 0) }
   }
+.logo img {
+  height: 15rem;
+  width: 10rem;
+  border-radius: 50%;
+  padding-bottom: 20px;
+  /* padding-right: 60px; */
+}
+
+.icons-footer a {
+  margin: 1% 20px;
+  color: black;
+  font-size: 1rem;
+
+}
+.icons-footer i:hover {
+  font-size: 1.5rem;
+
+}
+
 
 
 
 /* -------------------------SKILLS-------------------------------- */
 .skills {
-    padding-top: 50px;
-    font-family: "Bodoni Moda", serif;
+    /* padding-top: 50px; */
+    font-family: 'Sacramento', cursive;
 }
 .container-fluid {
     padding: 5% 5%;
@@ -73,7 +93,9 @@ blink-caret .5s step-end infinite;
 .skills h1:hover {
     
     font-weight: bold;
-    color: rgb(49, 49, 49);
+    font-size: 1.5rem ;
+    color: white;
+   
 
 }
 
@@ -81,12 +103,10 @@ blink-caret .5s step-end infinite;
     background-color:var(--background-softwhite);
     padding: 40% 10%;
     box-shadow: 1px 10px 1px 1px rgba(0, 0, 0, 0.2);
-    /* background-image: url(../pics/Hospitality_944755530_resized.jpg); */
+    background-image: url(../pics/coffee.jpg);
     opacity: 0.6;
     border-radius: 20px 20px 20px 20px;
-    max-width: 100%;
-        max-height: 100%;
-        display: block;
+
 }
 .left-side:hover{
     opacity: initial;
@@ -97,15 +117,18 @@ blink-caret .5s step-end infinite;
     background-color: white;
     padding: 40% 10%;
     box-shadow: 1px 10px 1px 1px rgba(0, 0, 0, 0.2);
-    background-image: url(../pics/accountant.jpg);
+    background-image: url(../pics/cooking.jpg);
     opacity: 0.6;
+    border-radius: 20px 20px 20px 20px;
 }
 .right-side:hover{
     opacity: initial;
 }
 
 
-/* -------------------------SKILLS-------------------------------- */
+/* -------------------------FOOTER-------------------------------- */
+
+
 
 
 

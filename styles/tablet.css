@@ -1,0 +1,33 @@
+.title h1 {
+    font-size: 4rem;
+    margin: 0 80px;
+}
+
+.logo img {
+    height: 19rem;
+    width: 14rem;
+  }
+
+.icons-footer a {
+    margin: 1% 40px;
+    color: black;
+    font-size: 2rem;
+  
+}
+  .icons-footer i:hover {
+    font-size: 3rem;
+  
+  }
+
+/* //////////// */
+
+
+  .skills h1:hover {
+    
+    font-weight: bold;
+    font-size: 3rem ;
+    color: white;
+   
+
+}
+
