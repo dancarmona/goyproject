@@ -1,0 +1,115 @@
+
+/* ***************STARTER TEMPLATE******************* */
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    /* font-family: 'Bodoni Moda', serif; */
+    
+  }
+  body {
+    
+  }
+  
+  :root {
+    --background-1: #c3c2c0;
+    --background-white: #ffffff;
+    --background-softwhite: #f5f5f5;
+    --color-text:black;
+  }
+
+/* ----------------------NAVBAR----------------------------- */
+
+
+.title h1 {
+font-size: 10rem;
+font-family: 'Sacramento', cursive;
+font-weight: 900;
+color: #000000;
+margin-top: 100px;
+
+overflow: hidden; /* Ensures the content is not revealed until the animation */
+border-right: .15em solid rgb(228, 0, 0); /* The typwriter cursor */
+white-space: nowrap; /* Keeps the content on a single line */
+margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+letter-spacing: .15em;
+animation: 
+typing 3.5s steps(10, end),
+blink-caret .5s step-end infinite;
+}
+  /* The typing effect */
+  @keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+  }
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(0, 0, 0) }
+  }
+
+
+
+/* -------------------------SKILLS-------------------------------- */
+.skills {
+    padding-top: 50px;
+    font-family: "Bodoni Moda", serif;
+}
+.container-fluid {
+    padding: 5% 5%;
+    text-align: center;
+    justify-content: center;
+  }
+.panel {
+    text-decoration: none ;
+    color: black;
+}
+.panel:hover {
+    color: black;
+}
+.skills h1:hover {
+    
+    font-weight: bold;
+    color: rgb(49, 49, 49);
+
+}
+
+.left-side{
+    background-color:var(--background-softwhite);
+    padding: 40% 10%;
+    box-shadow: 1px 10px 1px 1px rgba(0, 0, 0, 0.2);
+    /* background-image: url(../pics/Hospitality_944755530_resized.jpg); */
+    opacity: 0.6;
+    border-radius: 20px 20px 20px 20px;
+    max-width: 100%;
+        max-height: 100%;
+        display: block;
+}
+.left-side:hover{
+    opacity: initial;
+}
+
+
+.right-side {
+    background-color: white;
+    padding: 40% 10%;
+    box-shadow: 1px 10px 1px 1px rgba(0, 0, 0, 0.2);
+    background-image: url(../pics/accountant.jpg);
+    opacity: 0.6;
+}
+.right-side:hover{
+    opacity: initial;
+}
+
+
+/* -------------------------SKILLS-------------------------------- */
+
+
+
+
+
+
+
