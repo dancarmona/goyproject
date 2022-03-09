@@ -6,7 +6,7 @@
 } */
 
 .title h1 {
-    font-size: 7rem;
+    font-size: 6rem;
 }
 
 .skills h1:hover {
@@ -15,5 +15,18 @@
     font-size: 5rem ;
     color: white;
    
-
 }
+
+.logo img {
+    height: 30rem;
+    width: 22rem;
+  }
+
+
+
+  /* -------------------------FOOTER-------------------------------- */
+
+footer .footer-info {
+    font-size: 1rem;
+  
+  }

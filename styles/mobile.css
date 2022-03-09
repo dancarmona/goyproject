@@ -12,6 +12,7 @@
     
   }
   body {
+    font-family: 'Bodoni Moda', serif;
     
   }
   
@@ -26,7 +27,7 @@
 
 
 .title h1 {
-font-size: 2rem;
+font-size: 2.5rem;
 font-family: 'Sacramento', cursive;
 font-weight: 900;
 color: #000000;
@@ -52,8 +53,8 @@ blink-caret .5s step-end infinite;
   50% { border-color: rgb(0, 0, 0) }
   }
 .logo img {
-  height: 15rem;
-  width: 10rem;
+  height: 18rem;
+  width: 12rem;
   border-radius: 50%;
   padding-bottom: 20px;
   /* padding-right: 60px; */
@@ -74,10 +75,11 @@ blink-caret .5s step-end infinite;
 
 
 /* -------------------------SKILLS-------------------------------- */
-.skills {
-    /* padding-top: 50px; */
+/* .skills {
+    padding-top: 50px;
     font-family: 'Sacramento', cursive;
-}
+    font-family: 'Bodoni Moda', serif;
+} */
 .container-fluid {
     padding: 5% 5%;
     text-align: center;
@@ -93,10 +95,9 @@ blink-caret .5s step-end infinite;
 .skills h1:hover {
     
     font-weight: bold;
-    font-size: 1.5rem ;
+    font-size: 2rem ;
     color: white;
    
-
 }
 
 .left-side{
@@ -128,7 +129,13 @@ blink-caret .5s step-end infinite;
 
 /* -------------------------FOOTER-------------------------------- */
 
+footer .footer-info {
 
+  text-align: center;
+  margin: 70px;
+  font-size: .8rem;
+
+}
 
 
 
